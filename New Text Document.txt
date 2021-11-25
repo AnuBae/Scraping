@@ -1,0 +1,59 @@
+glints:
+main_link1 = "https://glints.com/id/opportunities/jobs/explore?keyword="
+main_link2 = "&country=ID&locationName=Indonesia"
+tag_main ="compact_job_card"
+tag_lowongan = "CompactOpportunityCardsc__JobTitle-sc-1xtox99-7 kJpKeD"
+tag_lowongan_part = "h3"
+tag_perusahaan = "CompactOpportunityCardsc__CompanyLink-sc-1xtox99-8 bFxfxR"
+tag_perusahaan_part = 'a'
+tag_lokasi = "CompactOpportunityCardsc__OpportunityInfo-sc-1xtox99-13 hiAtMr"
+tag_lokasi_part = "div"
+raw_link = "https://glints.com"
+
+tag_mainDetail = "Opportunitysc__Container-sc-1gsvee3-2 gPhXzZ"
+tag_keterangan = "TopFoldsc__JobOverViewInfoContainer-kklg8i-8 cyqTAm"
+tag_skill = "Opportunitysc__SkillsContainer-sc-1gsvee3-7 hzDxPi"
+tag_benefit = "Opportunitysc__BenefitsContainer-sc-1gsvee3-8 jvOXrL"
+tag_deskripsi = "Opportunitysc__JobDescriptionContainer-sc-1gsvee3-6 gBmrdW"
+breakDeskripsi = "(sebenarnya kosong tapi diisi)"
+
+karir:
+main_link1 = "https://www.karir.com/search?q="
+main_link2 = "&sort_order=urgent_job&job_function_ids=&industry_ids=&degre"
+tag_main = "row opportunity-box"
+tag_lowongan = "tdd-function-name"
+tag_lowongan_part = "h4"
+tag_perusahaan = "tdd-company-name"
+tag_perusahaan_part = "div"
+tag_lokasi = "tdd-location"
+tag_lokasi_part = "span"
+raw_link = "https://karir.com"
+
+tag_mainDetail = "b-opportunity-info__main"
+tag_keterangan = "b-opportunity-info__main__left"
+tag_skill = ""
+tag_benefit = ""
+tag_deskripsi = "html-content b-opportunity-show__box"
+breakDeskripsi = "Disclaimer:."
+
+jobbstreet:
+main_link1 = "https://www.jobstreet.co.id/id/job-search/"
+main_link2 = "-jobs/"
+tag_main = "sx2jih0 zcydq82a _27u74_0"
+tag_lowongan = "sx2jih0 zcydq82q _18qlyvc0 _18qlyvcv _18qlyvc3 _18qlyvc8"
+tag_lowongan_part = "h1"
+tag_perusahaan = "sx2jih0 zcydq82q _18qlyvc0 _18qlyvcv _18qlyvc1 _18qlyvc8"
+tag_perusahaan_part = "span"
+tag_lokasi = "sx2jih0 zcydq82q zcydq810 iwjz4h0"
+tag_lokasi_part = "span"
+raw_link = "https://www.jobstreet.co.id"
+
+tag_mainDetail = "sx2jih0 qs0rX_0 _19ukm_0"
+tag_keterangan = "-"
+tag_skill = "-"
+tag_benefit = "-"
+tag_deskripsi = "sx2jih0 h6p8rp0 h6p8rp7 h6p8rph"
+breakDeskripsi = "Tentang Perusahaan ."
+
+
+stem .replace("'", "").replace('"', '').replace(',', '')
